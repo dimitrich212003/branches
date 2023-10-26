@@ -1,4 +1,4 @@
-class Main{
+public class Main{
     public static void main(String[] args) {
         System.out.print("Это добавлено в ветке main");
         int a = 1;
@@ -13,6 +13,8 @@ class Main{
             a++;
         }
         System.out.print(a);
+        Random random = new Random();
+        System.out.println(random.nextInt(4) + 4);
 
     }
 }
